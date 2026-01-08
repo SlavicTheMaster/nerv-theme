@@ -50,6 +50,37 @@ cp zed-extension/themes/nerv.json ~/.config/zed/themes/
 
 Then open Command Palette and select "theme: Select Theme" → "NERV".
 
+### Neovim
+
+**Using [lazy.nvim](https://github.com/folke/lazy.nvim):**
+
+```lua
+{
+  "wongmjane/nerv-theme",
+  dir = "path/to/neovim-theme",  -- or use git URL when published
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd([[colorscheme nerv]])
+  end,
+}
+```
+
+**Manual Installation:**
+
+```bash
+# Copy the theme to your Neovim colors directory
+mkdir -p ~/.config/nvim/colors
+cp neovim-theme/colors/nerv.lua ~/.config/nvim/colors/
+```
+
+Then add to your `init.lua`:
+```lua
+vim.cmd([[colorscheme nerv]])
+```
+
+See [neovim-theme/README.md](neovim-theme/README.md) for more details and plugin integration.
+
 ## Color Palette
 
 | Role | Hex |
